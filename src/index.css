@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: #f55151;
+  height: 100px;
+
+}
+
+.with-tooltip {
+  position: relative;
+  display: block;
+}
+
+.tooltip-text {
+  font-size: 15px;
+  visibility: hidden;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  text-transform: none !important;
+}
+
+.with-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+.up-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f55151;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.up-arrow.visible {
+  display: block;
+  opacity: 1;
+}
+
+.up-arrow:hover {
+  background-color: #33a392;
+}
+
+.modal-view-btn {
+  background-color: #33a392;
+}
