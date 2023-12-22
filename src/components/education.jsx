@@ -12,7 +12,7 @@ export function Education() {
         </Col>
         <Col>
           <strong>Develop Carolina | Registered Apprenticeship and Journeyman Certification</strong>
-          <br /> July 2023 – Will obtain December 2023 <br />
+          <br /> July 2023 – December 2023 <br />
           Remote, SC
         </Col>
         <Col>

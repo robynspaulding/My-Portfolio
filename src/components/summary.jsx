@@ -13,8 +13,8 @@ export function Summary() {
         <Col>
           <h1 style={headingStyle}> Hi, I'm Robyn Spaulding</h1>
           <p>
-            I am a Software Engineer located in the California Bay Area. I currently work as a Remote Web Developer
-            Intern for Booz Allen Hamilton in South Carolina. I am always looking to learn and increase my skills as a
+            I am a Software Engineer located in the California Bay Area. I currently work remotely as a Junior Software Developer
+           for Booz Allen Hamilton in South Carolina. I am always looking to learn and increase my skills as a
             developer through connecting with other professionals and working on new tech in my projects. You can reach me at any
             of the links below!
           </p>
